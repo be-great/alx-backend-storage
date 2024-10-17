@@ -1,3 +1,4 @@
+-- create trigger with if
 CREATE TRIGGER reset_valid_email 
 BEFORE UPDATE ON users 
 FOR EACH ROW 
