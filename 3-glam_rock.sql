@@ -1,4 +1,4 @@
-SELECT band_name, (2022 - formed) AS lifespan
-FROM metal_bands
-WHERE style = 'Glam rock'
-ORDER BY lifespan DESC
+SELECT band_name, IFNULL(2022 - formed, 2022) AS lifespan 
+FROM metal_bands 
+WHERE style = 'Glam rock' 
+ORDER BY lifespan DESC;
