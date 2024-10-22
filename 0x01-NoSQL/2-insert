@@ -1,0 +1,3 @@
+// insert a value 
+use db.getName()
+db.my_collection.insertOne({"name": "Holberton school"});
